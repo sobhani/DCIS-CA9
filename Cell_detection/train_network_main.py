@@ -10,12 +10,11 @@ if os.name == 'nt':
     os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 
 if __name__ == '__main__':
-    main_file_path = pathlib.Path(
-        r'R:\tracerx\BASIS\Misc\ff\annotations-20190322\detection')
-    save_path = str(pathlib.Path(r'tfrecords/ff_BASIS'))
+    main_file_path = pathlib.Path( r'')
+    save_path = str(pathlib.Path(r'tfrecords/name'))
 
-    train_filename = 'Train-SCCNN-detection-190322'
-    valid_filename = 'Valid-SCCNN-detection-190322'
+    train_filename = 'Train'
+    valid_filename = 'Valid'
 
     step = 10000  # Higher step is faster to process but do not increase beyond 500000. If Matlab throws can't
     # serialize error reduce the step size.
