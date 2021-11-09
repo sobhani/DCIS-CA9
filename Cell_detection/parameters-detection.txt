@@ -1,0 +1,7 @@
+results_dir /mnt/scratch/DMP/COPAINGE/tracerx/BASIS/ff/results/detection
+file_name_pattern *.ndpi
+results_subdir 20190322
+in_feat_dim 4
+exp_dir /mnt/scratch/users/molecpath/sraza/scripts/MyCodes/TracerX/detection/20190516_SCCNNdetection/ExpDir-SCCNN-detection-ff-190322
+tissue_segment_dir /mnt/scratch/DMP/COPAINGE/tracerx/BASIS/ff/results/tissue_segmentation/20180629
+preprocessed_dir /mnt/scratch/DMP/COPAINGE/tracerx/BASIS/ff/results/detection/20190322
