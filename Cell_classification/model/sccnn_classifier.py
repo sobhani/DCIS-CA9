@@ -1,7 +1,8 @@
 import tensorflow as tf
 
-from subpackages import inference
-from subpackages import generate_output
+from step4_cell_class.subpackages import inference
+from step4_cell_class.subpackages import generate_output
+# from step4_cell_class.subpackages import generate_output_new as generate_output
 
 
 class SccnnClassifier:
@@ -48,7 +49,7 @@ class SccnnClassifier:
                                                               save_pre_process=save_pre_process,
                                                               network_output=network_output,
                                                               post_process=post_process)
-        print('Output Files saved at:' + output_path)
+        # print('Output Files saved at:' + output_path)
 
     def inference(self, is_training):
 

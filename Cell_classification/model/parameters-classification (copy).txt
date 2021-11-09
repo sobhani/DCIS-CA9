@@ -1,0 +1,7 @@
+exp_dir /mnt/scratch/users/molecpath/sraza/scripts/MyCodes/TracerX/20171019-SCCNNClassifier/ExpDir-IHC
+results_dir /mnt/scratch/DMP/COPAINGE/tracerx/tracerx100/IHC_diagnostic/results/classification
+file_name_pattern LTX*
+date 20171019
+in_feat_dim 3
+detection_results_path /mnt/scratch/DMP/COPAINGE/tracerx/tracerx100/IHC_diagnostic/results/detection/20171013
+color_code_file IHC_CD4_CD8_FoxP3.csv

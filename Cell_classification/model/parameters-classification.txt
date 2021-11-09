@@ -1,0 +1,7 @@
+exp_dir /run/user/1000/gvfs/smb-share:server=172.16.19.80,share=proj4/TIL_pipeline/4/20171019-SCCNNClassifierR/ExpDir-HE-4class
+results_dir /run/user/1000/gvfs/smb-share:server=rds.icr.ac.uk,share=data/DMP/DUDMP/COPAINGE/tilchallenge/tcga_test/results/cell_classification/
+file_name_pattern *
+date 20171019
+in_feat_dim 3
+detection_results_path /run/user/1000/gvfs/smb-share:server=rds.icr.ac.uk,share=data/DMP/DUDMP/COPAINGE/tilchallenge/tcga_test/results/cell_segmentation/20180313
+color_code_file HE_Fib_Lym_Tum_Others.csv
