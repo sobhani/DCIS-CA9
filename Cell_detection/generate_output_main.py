@@ -20,15 +20,15 @@ if __name__ == '__main__':
                                          label_width=13,
                                          in_label_dim=1,
                                          batch_size=90,
-                                         data_dir=r'Z:\DCIS_Duke_Faranak\AzamHETESt\cws',
-                                         results_dir=r'Z:\DCIS_Duke_Faranak\AzamHETESt\ExpDir-SCCNN-detection-ff-190322',
+                                         data_dir=r'', 
+                                         results_dir=r'',
                                          tissue_segment_dir='',
                                          file_name_pattern='*.svs',
                                          maxclique_distance=8,
                                          maxclique_threshold=0.15,
                                          feat_set=['h', 'rgb'],
                                          pre_process=True,
-                                         results_subdir='SCCNN-detection-ff-190322',
+                                         results_subdir='name',
                                          )
 
     if len(sys.argv) > 1:
