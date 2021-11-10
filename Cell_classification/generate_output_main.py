@@ -9,7 +9,7 @@ if os.name == 'nt':
     os.environ["CUDA_VISIBLE_DEVICES"] = "1"
 
 if __name__ == '__main__':
-    opts = NetworkOptions.NetworkOptions(exp_dir=r'/mnt/scratch/users/fsobhani/New_Classifier/20190522_SCCNNClassifier/SCCNN_51x51_5fold_cv3/checkpoint/',
+    opts = NetworkOptions.NetworkOptions(exp_dir=r'',
                                          num_examples_per_epoch_train=1,
                                          num_examples_per_epoch_valid=1,
                                          image_height=51,
@@ -18,15 +18,14 @@ if __name__ == '__main__':
                                          in_label_dim=1,
                                          num_of_classes=5,
                                          batch_size=500,
-                                         data_dir=r'Z:\DCIS_Duke_Faranak\HDD\Foxp3ca9-Final\output\TEST\TESTFILES\patchlevel\patchtotest',
-                                         results_dir=r'Z:\DCIS_Duke_Faranak\HDD\Foxp3ca9-Final\output\TEST\TESTFILES\resultsofTest-patchlevel',
-                                         detection_results_path=
-                                         r'Z:\DCIS_Duke_Faranak\HDD\Foxp3ca9-Final\output\TEST\TESTFILES\patchlevel\GT\detected_points',
+                                         data_dir=r'',
+                                         results_dir=r'',
+                                         detection_results_path= r'', # detection results (CSV files including the center of each cells)
                                          current_epoch_num=0,
                                          file_name_pattern='*.svs',
                                          pre_process=True,
- 					                     result_subdir='12072019',
-                                         color_code_file='Foxp3ca9.csv')
+ 					                     result_subdir='',
+                                         color_code_file='Foxp3ca9.csv') #color code used in the training to define lable for each cell
 
     if len(sys.argv) > 1:
         opts.data_dir = sys.argv[1]
