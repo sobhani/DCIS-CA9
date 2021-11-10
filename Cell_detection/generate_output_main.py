@@ -10,7 +10,7 @@ if os.name == 'nt':
 
 if __name__ == '__main__':
 
-    opts = NetworkOptions.NetworkOptions(exp_dir=r'./ExpDir-SCCNN-detection-foxp3-13-15102019',
+    opts = NetworkOptions.NetworkOptions(exp_dir=r'./ExpDir',
                                          num_examples_per_epoch_train=1,
                                          num_examples_per_epoch_valid=1,
                                          image_height=31,
@@ -20,8 +20,8 @@ if __name__ == '__main__':
                                          label_width=13,
                                          in_label_dim=1,
                                          batch_size=88,
-                                         data_dir=r'Z:\DCIS_Duke_Faranak\HDD\Foxp3ca9-Final\data\cws\tmp',
-                                         results_dir=r'Z:\DCIS_Duke_Faranak\HDD\Foxp3ca9-Final\data\10112021-testpipline',
+                                         data_dir=r'',
+                                         results_dir=r'',
                                          tissue_segment_dir='',
                                          file_name_pattern='*.svs',
                                          maxclique_distance=8,
