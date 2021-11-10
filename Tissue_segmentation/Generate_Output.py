@@ -6,7 +6,7 @@ from subpackages import NetworkOptions
 # os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"
 # os.environ["CUDA_VISIBLE_DEVICES"] = "1"
 
-opts = NetworkOptions.NetworkOptions(exp_dir='ExpDir-HE/',
+opts = NetworkOptions.NetworkOptions(exp_dir='ExpDir-IHC/',
                                      num_examples_per_epoch_train=1,
                                      num_examples_per_epoch_valid=1,
                                      image_height=508,
@@ -17,10 +17,10 @@ opts = NetworkOptions.NetworkOptions(exp_dir='ExpDir-HE/',
                                      in_label_dim=4,
                                      num_of_classes=2,
                                      batch_size=1,
-                                     data_dir=r'Z:\DCIS_Duke_Faranak\HDD\Foxp3ca9-Final\data\cws\tmp',
-                                     results_dir=r'Z:\DCIS_Duke_Faranak\HDD\Foxp3ca9-Final\data\10112021-testpipline',
+                                     data_dir=r'',
+                                     results_dir=r'',
                                      current_epoch_num=0,
-                                     file_name_pattern='*.svs',
+                                     file_name_pattern='',
                                      pre_process=False,
                                      )
 
