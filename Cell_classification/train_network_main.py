@@ -11,14 +11,14 @@ if os.name=='nt':
     os.environ["CUDA_VISIBLE_DEVICES"] = "1"
 
 if __name__ == '__main__':
-    save_tf_path = pathlib.Path(r'.\tfrecords2')
-    main_input_path = pathlib.Path(r'Z:\DCIS_Duke_Faranak\SSD\rds\S_dataprep\tmpmat')
-    train_tf_filename = 'TrainData-9-Foxp3-17092019-5fold-cv2'
-    valid_tf_filename = 'validData-9-Foxp3-17092019-5fold-cv2'
+    save_tf_path = pathlib.Path(r'.\tfrecords')
+    main_input_path = pathlib.Path(r'') # all input data mat files 
+    train_tf_filename = 'TrainData'
+    valid_tf_filename = 'validData'
 
 
 
-    opts = NetworkOptions.NetworkOptions(exp_dir=os.path.normpath(os.path.join(os.getcwd(), r'SCCNN_51x51_5fold_cv4_new')),
+    opts = NetworkOptions.NetworkOptions(exp_dir=os.path.normpath(os.path.join(os.getcwd(), r'EXPDir')),
                                          num_examples_per_epoch_train=1,
                                          num_examples_per_epoch_valid=1,
                                          image_height=51,
