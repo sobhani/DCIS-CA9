@@ -9,7 +9,7 @@ if os.name == 'nt':
     os.environ["CUDA_VISIBLE_DEVICES"] = "1"
 
 if __name__ == '__main__':
-    opts = NetworkOptions.NetworkOptions(exp_dir=os.path.join(os.getcwd(), r'.\ExpDir_CA9FOXp3'),
+    opts = NetworkOptions.NetworkOptions(exp_dir=os.path.join(os.getcwd(), r'.\ExpDir'),
                                          num_examples_per_epoch_train=1,
                                          num_examples_per_epoch_valid=1,
                                          image_height=31,
@@ -20,8 +20,8 @@ if __name__ == '__main__':
                                          in_label_dim=1,
                                          batch_size=1000,
                                          num_of_epoch=500,
-                                         data_dir=r'tfrecords/foxp2ca9-13',
-                                         train_data_filename='fTrain-SCCNN-detection-24102019',
-                                         valid_data_filename='fValid-SCCNN-detection-24102019',
+                                         data_dir=r'tfrecords/',
+                                         train_data_filename='Train-SCCNN-detection', # Train data from tfrecords step
+                                         valid_data_filename='Valid-SCCNN-detection',  #Valid data from tfrecords step
                                          current_epoch_num=0)
     train.run(opts_in=opts)
