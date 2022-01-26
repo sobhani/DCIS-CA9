@@ -1,9 +1,9 @@
 # Spatial interplay of tissue hypoxia and T-cell regulation in ductal carcinoma in situ
 
 
-
 <p align="center">
-<img src="https://github.com/sobhani/DCIS-CA9/blob/main/Images/platform.png">
+<img src="https://github.com/sobhani/DCIS-CA9/blob/main/Images/platform.png"
+     width=20% height=20%>
 </p>
 
 The deep learning framework used to analyze pure DCIS and IDC/DCIS samples in this study consists of four parts: 
@@ -14,6 +14,8 @@ The deep learning framework used to analyze pure DCIS and IDC/DCIS samples in th
 * Item DCIS segmentation: to detect and segment DCIS
 
 * For the detailed Python-TensorFlow virtual envs (Linux) for the SC-CNN detection and classification you can refer to   https://github.com/qalid7/compath 
+* The trained classification, detection model is not uploaded due to the size. You can contact the authours to have access to the final generator model after training. Better way to use the trained model is to pull the docker image.
+
 
 We describe a novel deep-learning model for the simultaneous detection and segmentation of DCIS ducts from IHC images. 
 An improved Generative Adversarial Networks (GANs) architecture was used to train a deep learning model capable of delineating DCIS duct regions from surrounding tissue.
