@@ -20,8 +20,7 @@ To use this model, follow the steps bellow.
 * Clone this repo:
 
 
-[copy.each(git clone https://github.com/sobhani/DCIS-CA9 //
-cd DCIS_segmentation)]
+[GitHub]git clone (https://github.com/sobhani/DCIS-CA9) //cd DCIS_segmentation)
 
 # Testing
 * Test the model:
