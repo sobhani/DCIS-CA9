@@ -1,5 +1,7 @@
 # Spatial interplay of tissue hypoxia and T-cell regulation in ductal carcinoma in situ
-The deep-learning pipeline for digital pathology image analysis is available for noncommercial research purposes.
+![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
+
+
 
 The deep learning framework used to analyze pure DCIS and IDC/DCIS samples in this study consists of four parts: 
 * Tiling: to convert a raw microscopy image into 2000x2000 JPEG tiles. 
