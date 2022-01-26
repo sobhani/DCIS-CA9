@@ -3,7 +3,7 @@
 
 <p align="center">
 <img src="https://github.com/sobhani/DCIS-CA9/blob/main/Images/platform.png"
-     width=80% height=80%>
+     width=70% height=70%>
 </p>
 
 The deep learning framework used to analyze pure DCIS and IDC/DCIS samples in this study consists of four parts: 
@@ -23,7 +23,7 @@ An improved Generative Adversarial Networks (GANs) architecture was used to trai
 
 <p align="center">
 <img src="https://github.com/sobhani/DCIS-CA9/blob/main/Images/DCIS.jpg"
-width=50% height=50%>
+width=70% height=70%>
 </p>
 
 To use this model, follow the steps bellow.
