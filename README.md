@@ -5,6 +5,10 @@
 width=50% height=50%>
 </p>
 
+<p align="center">
+<img src="https://github.com/sobhani/DCIS-CA9/blob/main/Images/pipline.png"
+width=50% height=50%>
+</p>
 
 The deep learning framework used to analyze pure DCIS and IDC/DCIS samples in this study consists of four parts: 
 * Tiling: to convert a raw microscopy image into 2000x2000 JPEG tiles. 
