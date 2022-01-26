@@ -1,7 +1,9 @@
 # Spatial interplay of tissue hypoxia and T-cell regulation in ductal carcinoma in situ
-<img src="https://github.com/sobhani/DCIS-CA9/blob/main/Images/DCIS.jpg"
-width="150" height="280">
 
+<p align="center">
+<img src="https://github.com/sobhani/DCIS-CA9/blob/main/Images/DCIS.jpg"
+width=50% height=50%>
+</p>
 
 
 The deep learning framework used to analyze pure DCIS and IDC/DCIS samples in this study consists of four parts: 
