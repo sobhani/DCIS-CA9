@@ -14,21 +14,21 @@ We describe a novel deep-learning model for the simultaneous detection and segme
 An improved Generative Adversarial Networks (GANs) architecture was used to train a deep learning model capable of delineating DCIS duct regions from surrounding tissue.
 
 To use this model, follow the steps bellow.
-#Installation
+# Installation
 *item Install PyTorch and dependencies from http://pytorch.org
 *item Install python libraries .
 *item Clone this repo:
 
-'''
+'''bash
 copy.each(git clone https://github.com/sobhani/DCIS-CA9 //
 cd DCIS_segmentation)
 '''
 
-#Testing
+# Testing
 * Test the model:
 python test.py --name [NAME_OF_PROJECT] --dataroot [PATH_TO_DATA] --results_dir [PATH_TO_SAVE] --no_instance
 
 *item the trained model is not uploaded due to the size. You can contact the authours to have access to the final generator model after training. Better way to use the trained model is to pull the docker image.
 
-#Docker
+# Docker
 We provide the pre-built Docker image and Dockerfile that can run this code repo. See Dockerfile and get the image by: docker pull 
