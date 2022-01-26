@@ -19,8 +19,10 @@ To use this model, follow the steps bellow.
 *item Install python libraries .
 *item Clone this repo:
 
-git clone https://github.com/sobhani/DCIS-CA9
-cd DCIS_segmentation
+'''
+copy.each(git clone https://github.com/sobhani/DCIS-CA9 //
+cd DCIS_segmentation)
+'''
 
 #Testing
 * Test the model:
