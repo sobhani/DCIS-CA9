@@ -6,7 +6,7 @@
      width=50% height=50%>
 </p>
 
-The deep learning framework used to analyze pure DCIS and IDC/DCIS samples in this study consists of four parts: 
+The deep learning framework used to analyze dual staining with CA9 and FOXP3 samples in this study consists of four parts: 
 * Tiling: to convert a raw microscopy image into 2000x2000 JPEG tiles. 
 * Tissue segmentation: to segment viable tissue area from a dual staining CA9 FOXP3 slide.
 * Cell detection: identifying cell nucleus
