@@ -23,7 +23,7 @@ An improved Generative Adversarial Networks (GANs) architecture was used to trai
 
 <p align="center">
 <img src="https://github.com/sobhani/DCIS-CA9/blob/main/Images/DCIS.jpg"
-width=70% height=70%>
+width=40% height=40%>
 </p>
 
 To use this model, follow the steps bellow.
