@@ -24,11 +24,26 @@ git clone (https://github.com/sobhani/DCIS-CA9)
 cd DCIS_segmentation
 ```
 
+# Training
+Train a model at 1024 x 1024 resolution:
+
+```bash
+python train.py --name [NAME_OF_PROJECT] --dataroot [PATH_TO_DATA] --no_instance
+```
+
+To view training results, please checkout intermediate results in
+```bash
+./checkpoints/[NAME_OF_PROJECT]/web/index.html.
+```
+
 # Testing
 * Test the model:
-python test.py --name [NAME_OF_PROJECT] --dataroot [PATH_TO_DATA] --results_dir [PATH_TO_SAVE] --no_instance
 
-*item the trained model is not uploaded due to the size. You can contact the authours to have access to the final generator model after training. Better way to use the trained model is to pull the docker image.
+```bash
+python test.py --name [NAME_OF_PROJECT] --dataroot [PATH_TO_DATA] --results_dir [PATH_TO_SAVE] --no_instance
+```
+
+*the trained model is not uploaded due to the size. You can contact the authours to have access to the final generator model after training. Better way to use the trained model is to pull the docker image.
 
 # Docker
 We provide the pre-built Docker image and Dockerfile that can run this code repo. See Dockerfile and get the image by: docker pull 
