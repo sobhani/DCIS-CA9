@@ -1,9 +1,5 @@
 # Spatial interplay of tissue hypoxia and T-cell regulation in ductal carcinoma in situ
 
-<p align="center">
-<img src="https://github.com/sobhani/DCIS-CA9/blob/main/Images/DCIS.jpg"
-width=50% height=50%>
-</p>
 
 <p align="center">
 <img src="file:///C:/Users/fsobhani/Desktop/platform.png"
