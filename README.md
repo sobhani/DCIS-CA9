@@ -3,7 +3,7 @@
 
 <p align="center">
 <img src="https://github.com/sobhani/DCIS-CA9/blob/main/Images/platform.png"
-     width=70% height=70%>
+     width=60% height=60%>
 </p>
 
 The deep learning framework used to analyze pure DCIS and IDC/DCIS samples in this study consists of four parts: 
