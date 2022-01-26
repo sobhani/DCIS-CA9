@@ -6,7 +6,7 @@ width=50% height=50%>
 </p>
 
 <p align="center">
-<img src="https://github.com/sobhani/DCIS-CA9/blob/main/Images/pipline.png"
+<img src="file:///C:/Users/fsobhani/Desktop/platform.png"
 width=50% height=50%>
 </p>
 
