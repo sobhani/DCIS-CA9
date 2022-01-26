@@ -9,15 +9,13 @@
 The deep learning framework used to analyze dual staining with CA9 and FOXP3 samples in this study consists of four parts: 
 * Tiling: to convert a raw microscopy image into 2000x2000 JPEG tiles. 
 * Tissue segmentation: to segment viable tissue area from a dual staining CA9 FOXP3 slide.
-* Cell detection: identifying cell nucleus
+* Cell detection: identifying cell nucleus.
 * Cell classification: predicting the class of an identified cell (Stroma, FOXP3+ lymphocyte, FOXP3- lymphocyte, CA9+ epithelial cells and CA9- epithelial cells)
-* Item DCIS segmentation: to detect and segment DCIS
+* DCIS segmentation: to detect and segment DCIS regions
 
-* For the detailed Python-TensorFlow virtual envs (Linux) for the SC-CNN detection and classification you can refer to   https://github.com/qalid7/compath 
-* The trained classification, detection model is not uploaded due to the size. You can contact the authours to have access to the final generator model after training. Better way to use the trained model is to pull the docker image.
+* The trained classification, detection model is not uploaded due to the size. You can contact the authours to have access to the final generator model after training. 
 
 
-We describe a novel deep-learning model for the simultaneous detection and segmentation of DCIS ducts from IHC images. 
 An improved Generative Adversarial Networks (GANs) architecture was used to train a deep learning model capable of delineating DCIS duct regions from surrounding tissue.
 
 
@@ -59,4 +57,10 @@ python test.py --name [NAME_OF_PROJECT] --dataroot [PATH_TO_DATA] --results_dir 
 * the trained model is not uploaded due to the size. You can contact the authours to have access to the final generator model after training. Better way to use the trained model is to pull the docker image.
 
 # Docker
-We provide the pre-built Docker image and Dockerfile that can run this code repo. See Dockerfile and get the image by: docker pull 
+We provide the pre-built Docker image and Dockerfile that can run this code repo. See Dockerfile and get the image by: docker pull ........
+
+
+# Acknowledgments
+* For the detailed Python-TensorFlow virtual envs (Linux) for the SC-CNN detection and classification you can refer to   https://github.com/qalid7/compath 
+
+This code for the DCIS segmentation borrows heavily from [link] https://github.com/chenxli/High-Resolution-Image-Synthesis-and-Semantic-Manipulation-with-Conditional-GANsl-
