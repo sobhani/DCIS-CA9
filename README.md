@@ -57,10 +57,14 @@ python test.py --name [NAME_OF_PROJECT] --dataroot [PATH_TO_DATA] --results_dir 
 * the trained model is not uploaded due to the size. You can contact the authours to have access to the final generator model after training. Better way to use the trained model is to pull the docker image.
 
 # Docker
-We provide the pre-built Docker image and Dockerfile that can run this code repo. See Dockerfile and get the image by: docker pull ........
+We provide the pre-built Docker image and Dockerfile that can run this code repo. See Dockerfile and get the image by:
 
+```bash
+docker pull 
+docker://fsobhani/pix2pix-hd:2.0
+```
 
 # Acknowledgments
-* For the detailed Python-TensorFlow virtual envs (Linux) for the SC-CNN detection and classification you can refer to   https://github.com/qalid7/compath 
+* For the detailed Python-TensorFlow virtual envs (Linux) for the SC-CNN detection and classification you can refer to   
 
 This code for the DCIS segmentation borrows heavily from [link] https://github.com/chenxli/High-Resolution-Image-Synthesis-and-Semantic-Manipulation-with-Conditional-GANsl-
