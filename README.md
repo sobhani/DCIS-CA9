@@ -60,8 +60,7 @@ python test.py --name [NAME_OF_PROJECT] --dataroot [PATH_TO_DATA] --results_dir 
 We provide the pre-built Docker image and Dockerfile that can run this code repo. See Dockerfile and get the image by:
 
 ```bash
-docker pull 
-docker://fsobhani/pix2pix-hd:2.0
+docker pull   docker://fsobhani/pix2pix-hd:2.0
 ```
 
 # Acknowledgments
